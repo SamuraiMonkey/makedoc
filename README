@@ -4,11 +4,11 @@ Install:
 Usuage:
     Populates a file with the docstrings from
     a module you specify, using pydocs. Use from the
-    command line within the your script's directory.
+    command line within your script's directory.
     eg python makedoc.py fileToWriteTo moduleName
 
 Sample Output:
-
+*******************
 Python Library Documentation: module nameOfModule
 
 NAME
@@ -23,4 +23,4 @@ FUNCTIONS
                         
     foo()
     Use this function to....
-
+*******************
