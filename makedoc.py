@@ -12,7 +12,8 @@ else:
     module = sys.argv[2]
     __import__(module)
 
+    doc = pydoc.render_doc(module)
     fobj = open(fname, 'a')
-    fobj.write(pydoc.render_doc(module))
+    fobj.write(doc)
     fobj.close()
     print '%s has been updated with the docstrings from %s.' % (fname, module)
