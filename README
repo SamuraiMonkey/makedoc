@@ -1,0 +1,26 @@
+Install:
+    git clone git://github.com/maxwellc/makedoc.git
+
+Usuage:
+    Populates a file with the docstrings from
+    a module you specify, using pydocs. Use from the
+    command line within the your script's directory.
+    eg python makedoc.py fileToWriteTo moduleName
+
+Sample Output:
+
+Python Library Documentation: module nameOfModule
+
+NAME
+    nameOfModule
+
+FILE
+    /path/to/module/modulename.py
+
+FUNCTIONS
+    bar()
+    Use this function to do something else...
+                        
+    foo()
+    Use this function to....
+
